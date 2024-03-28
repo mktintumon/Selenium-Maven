@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite" >
+    <test name="UserTesting" >
+        <classes>
+            <class name="demo.SeleniumDemo" />
+                <methods>
+                    <include name="WrongEmail"/>
+                    <include name="WrongPassword"/>
+                    <include name="SuccessLogin"/>
+                </methods>
+        </classes>
+    </test>
+</suite>
